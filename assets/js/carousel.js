@@ -1,0 +1,21 @@
+$('.client-slider').owlCarousel({
+    loop:true, 
+    items:2,
+    responsiveClass:true,
+    nav:false,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        768:{
+            items:2,
+            nav:false
+        },
+        1023:{
+            items:2,
+            nav:false,
+            loop:false
+        }
+    }
+})
